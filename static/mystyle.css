@@ -1,0 +1,20 @@
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/static/assets/Dita.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar-nav ms-auto li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar-nav ms-auto li::after{
+    width: 100%;
+}
