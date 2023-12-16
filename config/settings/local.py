@@ -1,4 +1,4 @@
-"""from config.settings.base import *  # noqa: F403, F401
+from config.settings.base import *  # noqa: F403, F401
 from config.settings.utils import get_bool_env
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -14,4 +14,4 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-}"""
+}
